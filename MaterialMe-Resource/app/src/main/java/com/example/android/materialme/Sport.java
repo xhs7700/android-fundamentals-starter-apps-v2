@@ -21,15 +21,16 @@ package com.example.android.materialme;
  */
 class Sport {
 
+    private final int imageResource;
     // Member variables representing the title and information about the sport.
     private String title;
     private String info;
-    private final int imageResource;
 
     /**
      * Constructor for the Sport data model.
-     *  @param title The name if the sport.
-     * @param info Information about the sport.
+     *
+     * @param title         The name if the sport.
+     * @param info          Information about the sport.
      * @param imageResource Image URI of the sport.
      */
     Sport(String title, String info, int imageResource) {
